@@ -1,0 +1,93 @@
+2022-02-22T19:20:05.547Z - info: Initializing jsreport (version: 3.3.0, configuration file: jsreport.config.json, nodejs: 17.4.0)
+2022-02-22T19:20:05.550Z - info: Searching for available extensions in C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\
+2022-02-22T19:20:05.622Z - info: Extensions location cache C:\Users\EVATRA~1\AppData\Local\Temp\jsreport\core\locations.json contains older information, crawling
+2022-02-22T19:20:11.430Z - info: Found 35 extension(s)
+2022-02-22T19:20:11.626Z - info: Using extension base@3.0.0
+2022-02-22T19:20:11.635Z - info: Using extension child-templates@3.0.1
+2022-02-22T19:20:11.640Z - info: Using extension cli@3.0.0
+2022-02-22T19:20:11.649Z - info: Using extension components@3.2.0
+2022-02-22T19:20:11.652Z - info: Using extension data@3.0.1
+2022-02-22T19:20:11.655Z - info: Using extension express@3.2.1
+2022-02-22T19:20:12.183Z - info: Using extension freeze@3.0.1
+2022-02-22T19:20:12.192Z - info: Using extension fs-store@3.0.0
+2022-02-22T19:20:12.372Z - info: Using extension handlebars@3.0.0
+2022-02-22T19:20:12.375Z - info: Using extension import-export@3.0.2
+2022-02-22T19:20:12.404Z - info: Using extension jsrender@3.0.0
+2022-02-22T19:20:12.408Z - info: Using extension licensing@3.0.1
+2022-02-22T19:20:12.468Z - info: Using extension localization@3.1.1
+2022-02-22T19:20:12.472Z - info: Using extension npm@3.1.0
+2022-02-22T19:20:12.482Z - info: Using extension pdf-utils@3.2.0
+2022-02-22T19:20:12.486Z - info: Using extension reports@3.0.1
+2022-02-22T19:20:12.492Z - info: Using extension tags@3.1.0
+2022-02-22T19:20:12.498Z - info: Using extension text@3.0.0
+2022-02-22T19:20:12.500Z - info: Using extension version-control@3.0.1
+2022-02-22T19:20:12.537Z - info: Using extension assets@3.2.0
+2022-02-22T19:20:12.567Z - info: Using extension authorization@3.2.0
+2022-02-22T19:20:12.579Z - info: Using extension browser-client@3.1.0
+2022-02-22T19:20:12.587Z - info: Using extension chrome-pdf@3.1.0
+2022-02-22T19:20:12.596Z - info: Using extension docx@3.1.0
+2022-02-22T19:20:12.602Z - info: Using extension html-to-xlsx@3.1.0
+2022-02-22T19:20:12.792Z - info: html-to-xlsx detected chrome as available html engine
+2022-02-22T19:20:12.793Z - info: Using extension pptx@3.1.0
+2022-02-22T19:20:12.798Z - info: Using extension scheduling@3.0.1
+2022-02-22T19:20:12.846Z - info: Using extension scripts@3.2.0
+2022-02-22T19:20:12.848Z - info: Using extension static-pdf@3.0.0
+2022-02-22T19:20:12.850Z - info: Using extension studio@3.3.0
+2022-02-22T19:20:13.084Z - info: Using extension xlsx@3.1.0
+2022-02-22T19:20:13.142Z - info: Using extension public-templates@3.0.0
+2022-02-22T19:20:13.146Z - info: Using extension sample-template@3.1.0
+2022-02-22T19:20:13.151Z - info: Using extension studio-theme-dark@3.0.1
+2022-02-22T19:20:13.157Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-02-22T19:20:13.157Z - info: Using fs provider for template store.
+2022-02-22T19:20:13.166Z - info: fs store is persisting using fs for C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\data
+2022-02-22T19:20:13.185Z - info: fs store is loading data
+2022-02-22T19:20:13.214Z - info: fs store is initialized successfully
+2022-02-22T19:20:13.363Z - info: Creating default express app.
+2022-02-22T19:20:13.415Z - error: Error when starting http server on port 4000 Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1465:7)
+    at C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:125:13)
+    at Object.<anonymous> (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:319:30)
+    at async ListenerCollection.fire (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async MainReporter.init (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:244:7)
+2022-02-22T19:20:13.419Z - error: Error occurred during reporter init: Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1465:7)
+    at C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:125:13)
+    at Object.<anonymous> (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:319:30)
+    at async ListenerCollection.fire (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async MainReporter.init (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:244:7)
+2022-02-22T19:20:13.463Z - error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1465:7)
+    at C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:125:13)
+    at Object.<anonymous> (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:319:30)
+    at async ListenerCollection.fire (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async MainReporter.init (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:244:7) error=Error: listen EADDRINUSE: address already in use :::4000, stack=Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1465:7)
+    at C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:125:13)
+    at Object.<anonymous> (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:319:30)
+    at async ListenerCollection.fire (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async MainReporter.init (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:244:7), exception=true, date=Tue Feb 22 2022 19:20:13 GMT+0000 (hora estándar de Europa occidental), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]

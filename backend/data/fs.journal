@@ -1,0 +1,4 @@
+{"operation":"reload","timestamp":{"$$date":1645557613257},"version":1,"doc":{}}
+{"operation":"insert","timestamp":{"$$date":1645557613292},"version":2,"doc":{"key":"core-migrated-xlsxTemplates","value":"true","creationDate":{"$$date":1645557613285},"modificationDate":{"$$date":1645557613285},"shortid":"dj6ENL9","_id":"XoatNJToUvxzwBKJ","$entitySet":"settings","$$etag":1645557613292}}
+{"operation":"reload","timestamp":{"$$date":1645557613329},"version":3,"doc":{}}
+{"operation":"insert","timestamp":{"$$date":1645557613355},"version":4,"doc":{"key":"core-migrated-resources","value":"true","creationDate":{"$$date":1645557613352},"modificationDate":{"$$date":1645557613352},"shortid":"xPEmjVA","_id":"Y196WtgLThSYNfpe","$entitySet":"settings","$$etag":1645557613355}}

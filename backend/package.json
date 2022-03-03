@@ -1,0 +1,33 @@
+{
+    "name": "unity-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js",
+        "manual-start": "node server.js"
+    },
+    "author": "etrancho",
+    "license": "GPL-3.0-or-later",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.1",
+        "cors": "^2.8.5",
+        "dotenv": "^8.6.0",
+        "express": "^4.17.2",
+        "http": "^0.0.1-security",
+        "jsonwebtoken": "^8.5.1",
+        "jsreport": "^3.3.0",
+        "mysql": "^2.18.1",
+        "mysql2": "^2.3.3",
+        "nodemon": "^2.0.15",
+        "sequelize": "^5.22.5",
+        "socket.io": "^4.4.1",
+        "source-map-url": "^0.4.1",
+        "urix": "^0.1.0"
+    },
+    "devDependencies": {
+        "sequelize-cli": "^6.4.1"
+    }
+}

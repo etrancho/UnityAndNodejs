@@ -1,0 +1,48 @@
+2022-02-22T19:20:13.415Z - error: Error when starting http server on port 4000 Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1465:7)
+    at C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:125:13)
+    at Object.<anonymous> (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:319:30)
+    at async ListenerCollection.fire (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async MainReporter.init (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:244:7)
+2022-02-22T19:20:13.419Z - error: Error occurred during reporter init: Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1465:7)
+    at C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:125:13)
+    at Object.<anonymous> (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:319:30)
+    at async ListenerCollection.fire (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async MainReporter.init (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:244:7)
+2022-02-22T19:20:13.463Z - error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1465:7)
+    at C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:125:13)
+    at Object.<anonymous> (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:319:30)
+    at async ListenerCollection.fire (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async MainReporter.init (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:244:7) error=Error: listen EADDRINUSE: address already in use :::4000, stack=Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1465:7)
+    at C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:22:12
+    at new Promise (<anonymous>)
+    at startAsync (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:16:10)
+    at C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:50:14
+    at Object.start (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:125:13)
+    at Object.<anonymous> (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-express\lib\main.js:319:30)
+    at async ListenerCollection.fire (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+    at async MainReporter.init (C:\clases\ProjectUnity+Node.js\UnityAndNodejs\backend\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:244:7), exception=true, date=Tue Feb 22 2022 19:20:13 GMT+0000 (hora estándar de Europa occidental), process=[object Object], os=[object Object], trace=[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
