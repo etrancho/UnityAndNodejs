@@ -101,6 +101,7 @@ The engine can be used to create three-dimensional (3D) and two-dimensional (2D)
 <p><b>How to do a first person controller:</b> https://www.youtube.com/watch?v=PEwA2dBG8io&ab_channel=ChrisDesarrollador</p>
 <p><b>How to apply a texture on one side of a cube in Unity:</b> https://www.youtube.com/watch?v=TfuoB_S8BM8&ab_channel=jean-gobertdecoster</p>
 <p><b>How to use RESTful APIs In Unity:</b> https://www.youtube.com/watch?v=XIbZDz_p6vE&ab_channel=Comp-3Interactive</p>
+<p><b>How to make audio only be heard in a certain radius/distance:</b> https://www.youtube.com/watch?v=LrchScd806w&ab_channel=LearnEverythingFast</p>
 <p><b>Animations:</b> https://www.mixamo.com/</p>
 
 [Go back to Index](#index)
